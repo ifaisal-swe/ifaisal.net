@@ -59,6 +59,22 @@ const projects = [
     technologies: ['Node.js', 'X API', 'Automation'],
     link: { label: 'x.com/timer_uj', href: 'https://x.com/timer_uj' },
   },
+  {
+    logo: '/logos/lifehost.png',
+    logoInset: true,
+    title: 'Life Host',
+    subtitle: 'Founder, VPS hosting provider',
+    stats: ['300+ customers'],
+    dates: '2017 - 2019',
+    points: [
+      'Founded a VPS hosting service with Anti-DDoS protection at 13 years old, providing Windows and Linux VPS',
+      'Managed dedicated servers and their infrastructure, using SolusVM and Virtualizor panels with KVM and Xen virtualization to build automatic VPS deployment',
+      'Gained more than 300 customers in a short time',
+      'Solved the complex infrastructure and customer issues that came up while running the service',
+    ],
+    technologies: ['Network', 'SolusVM', 'Virtualizor', 'Cloud & Servers Management', 'KVM', 'Xen', 'Auto Deploy Systems', 'CentOS', 'Hetzner', 'WHMCS', 'tawk.to', 'HTML', 'CSS', 'JavaScript', 'Express.js', 'MySQL'],
+    link: { label: 'life-host.co', href: 'https://life-host.co' },
+  },
 ]
 </script>
 

@@ -10,11 +10,20 @@ const route = useRoute()
       </component>
       <p class="text-ink-muted mt-1">Full-Stack Developer</p>
     </div>
-    <NuxtLink
-      to="/blogs"
-      class="inline-flex items-center h-10 px-4 rounded-[10px] bg-primary text-on-primary text-sm font-semibold transition-colors hover:bg-primary-dark"
-    >
-      Blogs
-    </NuxtLink>
+    <div class="flex items-center gap-2">
+      <NuxtLink
+        to="/repo"
+        class="inline-flex items-center gap-2 h-10 px-4 rounded-[10px] bg-primary text-on-primary text-sm font-semibold transition-colors hover:bg-primary-dark"
+      >
+        <AppIcon name="github" class="w-4 h-4" />
+        Repositories
+      </NuxtLink>
+      <NuxtLink
+        to="/blogs"
+        class="inline-flex items-center h-10 px-4 rounded-[10px] bg-primary text-on-primary text-sm font-semibold transition-colors hover:bg-primary-dark"
+      >
+        Blogs
+      </NuxtLink>
+    </div>
   </header>
 </template>

@@ -16,6 +16,22 @@ const projects = [
     link: { label: 'suhol.ai', href: 'https://suhol.ai' },
   },
   {
+    logo: '/logos/darb.png',
+    title: 'Darb',
+    subtitle: 'Founder, AI learning coach',
+    stats: [],
+    dates: '2026 - Present',
+    points: [
+      'Designed and built solo an AI learning coach for any goal, from university exams and certifications to languages and new skills',
+      'Learners set a goal and add their materials, and Darb builds a day-by-day plan, summaries, flashcards, and quizzes, then tracks how ready they are',
+      'Built AI pipelines and agents with Mastra for document analysis, concept extraction, and RAG chat over materials using pgvector',
+      'Implemented spaced repetition with FSRS, plus quizzes that are validated, scored for quality, and deduplicated',
+      'Arabic first with full RTL and English support, installable as a PWA with push reminders',
+    ],
+    technologies: ['Nuxt.js', 'Vue.js', 'PostgreSQL', 'pgvector', 'Drizzle', 'Better Auth', 'Mastra', 'OpenRouter', 'Cloudflare R2', 'Zod'],
+    link: { label: 'darbedu.com', href: 'https://darbedu.com' },
+  },
+  {
     logo: '/logos/planebot.png',
     title: 'PlaneBot',
     subtitle: 'Full Stack Developer, Discord server management bot',

@@ -4,7 +4,9 @@
     <ExperienceSection />
     <ProjectsSection />
     <CertificationsSection />
+    <EducationSection />
     <SkillsSection />
+    <ServicesSection />
     <ContactSection />
   </main>
 </template>

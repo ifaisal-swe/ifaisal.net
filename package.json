@@ -15,6 +15,7 @@
     "nuxt": "^3.21.11",
     "tailwindcss": "^4.3.4",
     "vue": "^3.5.45",
+    "vue-latex-cv": "file:../LaTeX-CV-VueJS/vue-latex-cv-1.0.0.tgz",
     "vue-router": "^4.6.4"
   },
   "devDependencies": {

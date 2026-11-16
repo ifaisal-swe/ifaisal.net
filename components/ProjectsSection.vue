@@ -34,7 +34,7 @@ const projects = [
   {
     logo: '/logos/planebot.png',
     title: 'PlaneBot',
-    subtitle: 'Full Stack Developer, Discord server management bot',
+    subtitle: 'Software Engineer, Discord server management bot',
     stats: ['300K+ members', '1,200+ servers'],
     dates: '2025 - Present',
     points: [

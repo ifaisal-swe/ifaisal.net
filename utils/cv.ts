@@ -9,7 +9,7 @@ interface CvEntryData {
 
 export const cv = {
   name: 'Faisal AlMutairi',
-  headline: 'Software Engineer | Full-Stack Developer',
+  headline: 'Software Engineer',
   contacts: [
     { label: 'Saudi Arabia' },
     { label: '+966 57 027 2104', href: 'tel:+966570272104' },
@@ -49,7 +49,7 @@ export const cv = {
     {
       title: 'Darbedu.com — AI-Powered Study Platform',
       date: 'Apr 2026 – Present',
-      subtitle: 'Founder & Full-Stack Developer',
+      subtitle: 'Founder & Software Engineer',
       bullets: [
         'Arabic-first AI learning coach: learners set any goal (exam, course, skill, language) or upload files, and Darb builds the topic plan, lessons, flashcards and quizzes, then tracks mastery and replans daily.',
         { label: 'AI agents', text: 'Coach chat runs on a Mastra agent with persistent learner memory and tool calling, while scheduling, mastery scoring and FSRS spaced repetition stay in deterministic code.' },
@@ -61,7 +61,7 @@ export const cv = {
     {
       title: 'Suhol.ai — AI-Powered Project Management SaaS',
       date: 'Oct 2025 – Present',
-      subtitle: 'Full-Stack Developer',
+      subtitle: 'Software Engineer',
       bullets: [
         'Suhol.ai is an AI-powered project management platform, deployed and serving 600+ users, that helps teams plan projects, collaborate in real time and automate workflows with AI assistance.',
         { label: 'Core features', text: 'Built payment integration with Streampay.sa, Suhol Meetings on LiveKit, and realtime chat on Supabase.' },
@@ -71,7 +71,7 @@ export const cv = {
     {
       title: 'MezlaBot & PlaneBot — Telegram and Discord Community Bots',
       date: '2020 – Present',
-      subtitle: 'Founder & Full-Stack Developer',
+      subtitle: 'Founder & Software Engineer',
       bullets: [
         { label: 'MezlaBot (Telegram)', text: 'Moderation bot serving 1M+ registered users across 1,700+ groups. Trained an offline Naive Bayes spam classifier and used Arabic text normalization with SimHash fingerprinting to catch reworded spam; network-wide bans removed 154K+ ad accounts.' },
         { label: 'PlaneBot (Discord)', text: 'Server management bot and Next.js/MySQL dashboard for 300K+ members across 1,200+ servers; Redis caching and ISR brought dashboard responses under one second.' },

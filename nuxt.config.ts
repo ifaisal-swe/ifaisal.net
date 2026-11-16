@@ -1,6 +1,6 @@
 import tailwindcss from '@tailwindcss/vite'
 
-const description = 'Faisal AlMutairi, Full-Stack Developer.'
+const description = 'Faisal AlMutairi, Software Engineer.'
 const analyticsId = 'G-V3VZYJF4C6'
 
 export default defineNuxtConfig({

@@ -8,7 +8,7 @@ const route = useRoute()
       <component :is="route.path === '/' ? 'h1' : 'p'" class="text-3xl font-semibold tracking-tight text-primary">
         <NuxtLink to="/">Faisal AlMutairi</NuxtLink>
       </component>
-      <p class="text-ink-muted mt-1">Full-Stack Developer</p>
+      <p class="text-ink-muted mt-1">Software Engineer</p>
     </div>
     <div class="flex flex-wrap items-center justify-end gap-2">
       <NuxtLink

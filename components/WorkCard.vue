@@ -6,7 +6,7 @@ defineProps<{
   title: string
   subtitle?: string
   stats: string[]
-  dates: string
+  dates?: string
   points: string[]
   technologies: string[]
   link?: { label: string, href: string }
@@ -44,7 +44,7 @@ defineProps<{
         >{{ link.label }}</a>
       </h3>
       <p v-if="subtitle" class="text-ink-muted mt-0.5">{{ subtitle }}</p>
-      <p class="font-mono text-[13px] text-ink-muted mt-1">{{ [dates, ...stats].join(' · ') }}</p>
+      <p v-if="dates || stats.length" class="font-mono text-[13px] text-ink-muted mt-1">{{ [dates, ...stats].filter(Boolean).join(' · ') }}</p>
 
       <ul
         class="list-disc ps-4 mt-3 leading-relaxed text-ink marker:text-primary"

@@ -19,20 +19,14 @@ export const cv = {
     { label: 'ifaisal.net', href: 'https://ifaisal.net' },
   ] satisfies CvContact[],
   summary:
-    'Software Engineer focused on reliable full-stack web applications, backend APIs, database-driven systems, and AI-enabled product features. Strong with TypeScript, JavaScript, React, Next.js, Nuxt, Supabase, PostgreSQL, MySQL, REST APIs, debugging, and deployment workflows.',
-  coreSkills: [
-    { label: 'Full-Stack Development', text: 'Build frontend interfaces, backend services, API integrations, dashboards, forms, authentication flows, and database-backed features.' },
-    { label: 'Backend & Databases', text: 'Design REST APIs, SQL schemas, access control, validation logic, background workflows, and data processing pipelines.' },
-    { label: 'Frontend Engineering', text: 'Develop responsive UI components, state-driven pages, reusable layouts, and user-facing product features.' },
-    { label: 'AI Product Engineering', text: 'Apply RAG, LLM agents, embeddings, tool calling, structured outputs, and workflow automation inside real software products.' },
-    { label: 'Quality & Delivery', text: 'Use Git/GitHub, debugging, testing mindset, clean code practices, documentation, and deployment tools to ship maintainable features.' },
-  ] satisfies CvBullet[],
+    'Software Engineer focused on creating and improving tech products, with experience in web development, backend APIs, database-driven systems, and AI-enabled features. Strong with TypeScript, JavaScript, React, Next.js, Nuxt, Supabase, PostgreSQL, MySQL, REST APIs, debugging, and deployment workflows.',
   technicalSkills: [
     { label: 'Languages', value: 'TypeScript, JavaScript, SQL, HTML, CSS' },
-    { label: 'Frontend', value: 'React.js, Next.js, Vue.js, Nuxt, Tailwind CSS, responsive web development' },
-    { label: 'Backend', value: 'Node.js, REST APIs, authentication, authorization, Supabase, PostgreSQL, MySQL, Redis' },
-    { label: 'AI / LLM', value: 'RAG, LLM agents, embeddings, vector search, prompt engineering, tool calling, structured outputs' },
-    { label: 'Tools & Cloud', value: 'Git, GitHub, Docker, Linux, Postman, Cloudflare, S3-compatible storage, PM2' },
+    { label: 'Frontend', value: 'React.js, Next.js, Vue.js, Nuxt, Tailwind CSS, responsive UI, reusable components' },
+    { label: 'Backend & Databases', value: 'Node.js, REST APIs, authentication, access control, validation, Supabase, PostgreSQL, MySQL, Redis, SQL schema design, data pipelines' },
+    { label: 'AI / LLM', value: 'RAG, LLM agents, embeddings, vector search, prompt engineering, tool calling, structured outputs, workflow automation' },
+    { label: 'DevOps', value: 'Docker, Dokploy, GitHub Actions (CI/CD), Linux server management and monitoring' },
+    { label: 'Tools & Cloud', value: 'Git, GitHub, Postman, Cloudflare, S3-compatible storage' },
   ] satisfies CvSkillGroup[],
   experience: [
     {
@@ -47,8 +41,7 @@ export const cv = {
   ] satisfies CvEntryData[],
   projects: [
     {
-      title: 'Darbedu.com — AI-Powered Study Platform',
-      date: 'Apr 2026 – Present',
+      title: 'Darbedu.com - AI-Powered Study Platform',
       subtitle: 'Founder & Software Engineer',
       bullets: [
         'Arabic-first AI learning coach: learners set any goal (exam, course, skill, language) or upload files, and Darb builds the topic plan, lessons, flashcards and quizzes, then tracks mastery and replans daily.',
@@ -59,8 +52,7 @@ export const cv = {
       ],
     },
     {
-      title: 'Suhol.ai — AI-Powered Project Management SaaS',
-      date: 'Oct 2025 – Present',
+      title: 'Suhol.ai - AI-Powered Project Management SaaS',
       subtitle: 'Software Engineer',
       bullets: [
         'Suhol.ai is an AI-powered project management platform, deployed and serving 600+ users, that helps teams plan projects, collaborate in real time and automate workflows with AI assistance.',
@@ -69,22 +61,20 @@ export const cv = {
       ],
     },
     {
-      title: 'MezlaBot & PlaneBot — Telegram and Discord Community Bots',
-      date: '2020 – Present',
+      title: 'MezlaBot & PlaneBot - Telegram and Discord Community Bots',
       subtitle: 'Founder & Software Engineer',
       bullets: [
         { label: 'MezlaBot (Telegram)', text: 'Moderation bot serving 1M+ registered users across 1,700+ groups. Trained an offline Naive Bayes spam classifier and used Arabic text normalization with SimHash fingerprinting to catch reworded spam; network-wide bans removed 154K+ ad accounts.' },
-        { label: 'PlaneBot (Discord)', text: 'Server management bot and Next.js/MySQL dashboard for 300K+ members across 1,200+ servers; Redis caching and ISR brought dashboard responses under one second.' },
+        { label: 'PlaneBot (Discord)', text: 'Server management bot and Next.js/MySQL dashboard for 300K+ members across 1,200+ servers.' },
         { label: 'Technologies Used', text: 'Node.js, Telegraf, Next.js, MySQL, Redis, Zod, Naive Bayes, SimHash, Cloudflare R2, PM2.' },
       ],
     },
   ] satisfies CvEntryData[],
   education: [
     {
-      title: 'University of Jeddah',
+      title: 'University of Jeddah - Bachelor of Science in Software Engineering',
       date: 'Aug 2022 – Jan 2027',
       bullets: [
-        'Bachelor of Science in Software Engineering',
         'Honors: Certificate of Excellence for the 2022 and 2023 academic semesters.',
       ],
     },

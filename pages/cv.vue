@@ -34,10 +34,6 @@ onBeforeUnmount(() => window.removeEventListener('resize', fitToWidth))
           <p class="m-0">{{ cv.summary }}</p>
         </CvSection>
 
-        <CvSection title="Software Engineering Skills">
-          <CvBullets :items="cv.coreSkills" />
-        </CvSection>
-
         <CvSection title="Technical Skills">
           <CvSkills :items="cv.technicalSkills" />
         </CvSection>

@@ -21,9 +21,14 @@ const skillCategories = [
     skills: ['LLM Workflows', 'Agentic Systems', 'RAG', 'Mastra AI', 'ChatGPT', 'ElevenLabs', 'Natural (NLP)', 'Naive Bayes', 'Claude Code', 'OpenCode', 'T3 Code'],
   },
   {
+    icon: 'server',
+    title: 'DevOps',
+    skills: ['Docker', 'Dokploy', 'GitHub Actions', 'Linux', 'Ubuntu', 'Windows Server', 'PM2', 'Netdata'],
+  },
+  {
     icon: 'wrench',
     title: 'Tools & Technologies',
-    skills: ['REST APIs', 'Git', 'Linux', 'Ubuntu', 'Windows Server', 'Docker', 'Dokploy', 'PM2', 'Netdata', 'Cloudflare Workers', 'Cloudflare R2', 'Telegram Bot API', 'X API'],
+    skills: ['REST APIs', 'Git', 'Cloudflare Workers', 'Cloudflare R2', 'Telegram Bot API', 'X API'],
   },
 ]
 </script>
@@ -35,7 +40,7 @@ const skillCategories = [
       <div
         v-for="category in skillCategories"
         :key="category.title"
-        class="flex gap-4 rounded-xl border border-line bg-surface p-4 transition-colors hover:border-control sm:last:col-span-2"
+        class="flex gap-4 rounded-xl border border-line bg-surface p-4 transition-colors hover:border-control"
       >
         <span class="w-11 h-11 shrink-0 rounded-[10px] border border-line bg-tile text-primary flex items-center justify-center">
           <AppIcon :name="category.icon" class="w-5 h-5" />
